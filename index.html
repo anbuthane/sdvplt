@@ -27,9 +27,10 @@
   <body style="background-color: blueviolet">
     <form>
       <label for="fname">First Name : </label>
-      <input type="text" name="fname" id="fname" value="John" /><br />
+      <input type="text" name="fname" id="fname" minlength="6" required /><br />
       <label for="lname">Last Name : </label>
       <input type="text" name="lname" id="lname" value="Doe" /><br />
+      <input type="file" id="file" name="file">
       <input type="submit" value="Click Me" />
     </form>
     <!--[if lt IE 7]>
