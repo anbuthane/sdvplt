@@ -1,0 +1,15 @@
+table,td,th 
+{
+        border: 1px dashed blue;
+
+ }
+th,td {
+        padding: 10px;
+        text-align: center;
+     
+}
+.bdy
+{
+    background-color:aqua;
+    font-size: large;
+}
